@@ -1,0 +1,26 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>Mobile code editor</title>
+  <script type="text/javascript" src="mobile-code-editor.js"></script>
+  <link rel="stylesheet" type="text/css" href="mobile-code-editor.css" />
+</head>
+<body onload="" class="bodytag">
+  <div class="settings" id="settings">
+    <div class="setting" onclick="togglesetting('showops');">Operations</div>
+    <div class="setting" onclick="togglesetting('showboilerplate');">{}</div>
+    <div class="setting" onclick="run();">Run</div>
+    <div class="setting" onclick="save();">Save</div>   
+  </div>
+  <div class="code" id="coderoot">
+  </div>
+  <div class="ops last">
+    <div class="op add add-block" onclick="addblock(document.getElementsByTagName('body').item(0));">Add block</div>
+    <div class="op add add-statement" onclick="addstatement(document.getElementsByTagName('body').item(0));">Add statement</div>
+  </div>
+</body>
+</html>
+ 
+ 
+ 
+ 

@@ -1,0 +1,42 @@
+body { }
+
+.block { border:1px dotted #e0e0e0; overflow:visible; clear:both; padding-left:1.75em; }
+.statement { border:1px dotted #ffffff; border-top: 1px dotted #e0e0e0; clear:both; padding-left:1.75em; }
+
+.ops { display:block; position:relative; }
+.block .ops.last { clear:both; margin-top:-1em; }
+
+.move-controls { z-index:1000; position:absolute; top:-10px; left:200px; display:none; border:1px solid #8080ff; border-radius:5px; padding:10px; background-color:#c0c0ff; }
+.move-op { padding:0 0.5em; margin:0.5em; }
+
+.code { overflow:auto; /*background-color:#008080;*/ }
+.block > .code, #coderoot { padding-bottom:1em; }
+#coderoot { padding-top:1em; }
+
+.block .type { background-color:#f0fff0; display:inline; padding: 0 0.5em 0 0; }
+.block .args { background-color:#f0f0ff; display:inline; padding: 0 0.5em; }
+.body { background-color:#f8f8f8; min-width:1em; min-height:1em; float:left; clear:left; }
+
+.delim { display:none; color:#c0c0c0; }
+.body-delim.close-delim { display:block; clear:left; float:left; }
+
+.op { background-color:#f0f0f0; max-width:8em; border:1px solid #e0e0e0; padding:0 0.25em; margin:0 0.25em 0 0; }
+.add { float:left; }
+.del { float:right; background-color:#fff0f0; width:auto; margin-right:0; clear:both; }
+.move { float:left; background-color:#f0f0ff; width:auto; width:0.75em; margin-left:-1.75em; }
+
+.settings { border-bottom:3px solid #e0e0e0; margin-bottom:0.25em; }
+.setting { display:inline; border-left:1px solid #e0e0e0; padding:0 0.25em; }
+
+
+
+
+
+
+
+
+
+
+
+
+
